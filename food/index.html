@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+    
+</head>
+<body>
+    <div class="overlay" id="overlay">
+        <h3>Searching now...</h3>
+    </div>
+    <div class="hero-bg">
+        <section class="top">
+            <header>
+                <a href="#">3@sir k@nj</a>
+            </header>
+
+            <h1><span>Stay Healthy </span>  Best juice ever</h1>
+
+            <p>Eat a lemon a day and keep corona virus away!
+                No comment
+            </p>
+
+            <div class="form-container">
+                <form action="">
+                    <div class="form-left">
+                        <label for="city">Enter  your favorite juice:</label>
+                        <input type="text" name="city" id="city">
+                        <p>Example: "Dayefna hassoun"</p>
+                    </div>
+
+                    <input type="button" value="press for 1 drink" id="cta-btn">
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <section class="authentic">
+        <div class="right-col">
+            <h2>Fishing to kanj</h2>
+            <p>Fishing is the activity of trying to catch fish. ... Techniques for catching fish include hand gathering, spearing, netting, angling and trapping. “Fishing” may include catching aquatic animals other than fish, such as molluscs, cephalopods, crustaceans, and echinoderms.</p>
+        </div>
+        <img src="images/2020_12_29_16_17_IMG_4790.JPG" alt="Best picture ever">
+    </section>
+
+
+<script>
+
+         let btn = document.getElementById('cta-btn');
+        let overlay = document.getElementById('overlay');
+
+        btn.addEventListener('click', () => {
+            overlay.style.display = 'grid';
+            overlay.classList.add('animate-overlay')
+        })
+</script>
+</body>
+</html>
